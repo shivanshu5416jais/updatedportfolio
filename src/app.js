@@ -80,7 +80,7 @@ mongoose.connect("mongodb+srv://sjteckers:xhyq4LfZynj3s5oJ@nodedb.cxkrxvz.mongod
     //     }]
     // })
 });
-
-app.listen(process.env.PORT | 8080,()=>{
-    console.log("server started")
+const port=process.env.PORT | 8080;
+app.listen(port,()=>{
+    console.log("server started "+ port)
 })
