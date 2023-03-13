@@ -1,5 +1,34 @@
 body{
 }
+.main {
+  animation: animated-text 2s steps(30,end) 1s 1 normal both;
+}
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+.main {
+  white-space: nowrap;
+  overflow: hidden;   
+  margin: 0 auto; 
+}
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0px;}
+  to{width: 772px;}
+}
+a{
+  transition: 2s;
+  
+}
+a:hover{
+  transition: 0.3s;
+  background-color: darkred;
+  transform: scaleY(1.3);
+}
 .slider-image{
     height: 700px!important;
     object-fit: cover;
@@ -37,8 +66,10 @@ background-size: cover;
   .fab{
     padding: 6px;
   }
-  .fa:hover {
+  .fab:hover {
     opacity: 0.7;
+    transform: scaleY(1.3);
+    border: 5px;
   }
   
   .fa-facebook 
