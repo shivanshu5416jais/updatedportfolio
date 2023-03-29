@@ -1,46 +1,47 @@
-{{!-- 
+{{!--
 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
-<div class="carousel-indicators">
-  {{#each slides}}
-  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{@index}}" class="{{this.class}}" aria-current="true" aria-label="Slide 1"></button>
-  {{/each}}
-</div>
+  <div class="carousel-indicators">
+    {{#each slides}}
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{@index}}"
+      class="{{this.class}}" aria-current="true" aria-label="Slide 1"></button>
+    {{/each}}
+  </div>
 
-<div class="carousel-inner">
-  {{#each slides}}
-  <div class="carousel-item {{class}}">
-    <img src={{this.imageUrl}} class="d-block w-100 slider-image" alt="...">
-    <div class="carousel-caption d-none d-md-block">
+  <div class="carousel-inner">
+    {{#each slides}}
+    <div class="carousel-item {{class}}">
+      <img src={{this.imageUrl}} class="d-block w-100 slider-image" alt="...">
+      <div class="carousel-caption d-none d-md-block">
         <h5>{{this.title}}</h5>
         <p>{{this.subTitle}}</p>
       </div>
+    </div>
+    {{/each}}
   </div>
- {{/each}}
-</div>
 
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Next</span>
-</button>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div> --}}
 
- <div id="main" class=" py-5 bg-dark text-light" style="height: 100vh;display: flex;min-height:500px;width: 100%;
+<div id="main" class=" py-5 bg-dark text-light" style="height: 100vh;display: flex;min-height:500px;width: 100%;
   text-align: center;
  vertical-align: middle;display: table;
 ">
-<div style="display:table-cell;
+  <div style="display:table-cell;
   vertical-align: middle;
   margin: 0 auto;
   padding: 0px;
  ">
-  <div style="font-size: 27px;">Hello, My name is</div>
-  <div  style="font-size: 70px;font-weight: 600;">Shivanshu Jaiswal</div>
-  
-  <div class="word" style="font-size: 35px;">And, I'm a MEAN stack developer.</div>
-</div>
+    <div style="font-size: 27px;">Hello, My name is</div>
+    <div style="font-size: 70px;font-weight: 600;">Shivanshu Jaiswal</div>
 
- </div>
+    <div class="word" style="">And, I'm a MEAN stack developer.</div>
+  </div>
+
+</div>
